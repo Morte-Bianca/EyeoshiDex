@@ -1,0 +1,78 @@
+:root {
+  /* Primary - Cyan action color */
+  --oui-color-primary: 0 217 255;
+  --oui-color-primary-light: 96 228 255;
+  --oui-color-primary-darken: 0 153 204;
+  --oui-color-primary-contrast: 255 255 255;
+
+  /* Link */
+  --oui-color-link: 0 217 255;
+  --oui-color-link-light: 96 228 255;
+
+  /* Secondary */
+  --oui-color-secondary: 255 255 255;
+  --oui-color-tertiary: 218 218 218;
+  --oui-color-quaternary: 218 218 218;
+
+  /* Success - Green (Long/Profit) */
+  --oui-color-success: 16 185 129;
+  --oui-color-success-light: 52 211 153;
+  --oui-color-success-darken: 5 150 105;
+  --oui-color-success-contrast: 255 255 255;
+
+  /* Danger - Red (Short/Loss) */
+  --oui-color-danger: 239 68 68;
+  --oui-color-danger-light: 248 113 113;
+  --oui-color-danger-darken: 220 38 38;
+  --oui-color-danger-contrast: 255 255 255;
+
+  /* Warning */
+  --oui-color-warning: 245 158 11;
+  --oui-color-warning-light: 252 191 73;
+  --oui-color-warning-darken: 217 119 6;
+  --oui-color-warning-contrast: 255 255 255;
+
+  /* Trading colors */
+  --oui-color-trading-profit: 16 185 129;
+  --oui-color-trading-profit-contrast: 255 255 255;
+  --oui-color-trading-loss: 239 68 68;
+  --oui-color-trading-loss-contrast: 255 255 255;
+
+  /* Base scale - Dark theme */
+  --oui-color-base-1: 100 116 139;
+  --oui-color-base-2: 71 85 105;
+  --oui-color-base-3: 51 65 85;
+  --oui-color-base-4: 45 55 72;
+  --oui-color-base-5: 30 41 59;
+  --oui-color-base-6: 25 34 49;
+  --oui-color-base-7: 20 27 40;
+  --oui-color-base-8: 17 24 35;
+  --oui-color-base-9: 15 23 42;
+  --oui-color-base-10: 10 15 28;
+  --oui-color-base-foreground: 255 255 255;
+
+  /* Background */
+  --oui-color-fill: 25 34 49;
+  --oui-color-fill-active: 30 41 59;
+  --oui-color-line: 255 255 255;
+
+  /* Gradients */
+  --oui-gradient-primary-start: 0 217 255;
+  --oui-gradient-primary-end: 0 153 204;
+  --oui-gradient-success-start: 16 185 129;
+  --oui-gradient-success-end: 5 150 105;
+  --oui-gradient-danger-start: 239 68 68;
+  --oui-gradient-danger-end: 220 38 38;
+
+  /* Typography */
+  --oui-font-family: "Inter", "Manrope", sans-serif;
+
+  /* Spacing & Corners */
+  --oui-rounded: 6px;
+  --oui-rounded-sm: 4px;
+  --oui-rounded-lg: 8px;
+  --oui-rounded-full: 9999px;
+
+  --oui-button-shadow: none;
+  --oui-font-size-base: 14px;
+}
