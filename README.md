@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/eyeoshi_logo.jpg" alt="Eyeoshi" width="120" />
+
+  <h1>Eyeoshi</h1>
+
+  <p><strong>Decentralized Perpetual Trading Platform</strong></p>
+
+  <p>
+    <a href="https://dex.eyeoshi.com">Live App</a> ·
+    <a href="#features">Features</a> ·
+    <a href="#getting-started">Getting Started</a>
+  </p>
+</div>
+
+---
+
+## About
+
+Eyeoshi is a decentralized perpetual futures trading platform built for speed, transparency, and a seamless trading experience. Trade BTC, ETH, and more pairs against USDC with deep liquidity, a real-time order book, and full portfolio management — all from your browser.
+
+## Features
+
+- **Perpetual Futures Trading** — Go long or short on BTC/USDC, ETH/USDC, and more pairs with leverage
+- **Real-Time Order Book** — On-chain order book with live depth and price updates
+- **Portfolio Management** — Track positions, open orders, assets, and full trade history
+- **Fee Tier System** — Reduced trading fees based on volume and tier status
+- **API Key Management** — Generate API keys for programmatic and algorithmic trading
+- **Trading Rewards** — Earn rewards through active trading participation
+- **Affiliate & Referral Program** — Invite others and earn commissions on their trading fees
+- **Multi-Wallet Support** — Connect via MetaMask, WalletConnect, and other EVM-compatible wallets
+- **Multi-Chain** — Supports multiple EVM-compatible networks
+- **Dark Theme UI** — Designed for extended trading sessions
+
+## Tech Stack
+
+| Layer        | Technology                  |
+| ------------ | --------------------------- |
+| Framework    | Next.js                     |
+| Language     | TypeScript                  |
+| Styling      | Tailwind CSS                |
+| Deployment   | Vercel                      |
+| Wallets      | MetaMask, WalletConnect     |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, or pnpm
+
+### Installation
+
+```bash
+git clone https://github.com/your-org/eyeoshi-dex.git
+cd eyeoshi-dex/app
+npm install
+```
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+### Lint
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The application is deployed on **Vercel**. Push to the main branch to trigger an automatic production deployment.
 
-## Deploy on Vercel
+For manual deploys:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npx vercel --prod
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+MIT
+
+---
+
+<div align="center">
+  <sub>Built with 💚 by the Eyeoshi team</sub>
+</div>
