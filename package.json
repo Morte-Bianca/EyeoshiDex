@@ -15,6 +15,7 @@
     "@orderly.network/portfolio": "^2.12.2",
     "@orderly.network/react-app": "^2.12.2",
     "@orderly.network/trading": "^2.12.2",
+    "@orderly.network/trading-points": "^1.4.3",
     "@orderly.network/trading-rewards": "^2.12.2",
     "@orderly.network/ui": "^2.12.2",
     "@orderly.network/ui-scaffold": "^2.12.2",

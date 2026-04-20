@@ -1,13 +1,13 @@
 "use client";
 
-import { Dashboard, ReferralProvider } from "@orderly.network/affiliate";
+import { ReferralProvider, Dashboard } from "@orderly.network/affiliate";
 
 export default function AffiliatePage() {
   return (
     <ReferralProvider
-      becomeAnAffiliateUrl="/affiliate"
+      becomeAnAffiliateUrl="https://orderly.network"
       learnAffiliateUrl="https://eyeoshi.com"
-      referralLinkUrl={typeof window !== "undefined" ? window.location.origin : ""}
+      referralLinkUrl="https://dex.eyeoshi.com"
       overwrite={{
         shortBrokerName: "Eyeoshi",
         brokerName: "Eyeoshi",

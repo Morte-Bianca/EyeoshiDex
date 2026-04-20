@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "@orderly.network/ui/dist/styles.css";
+@import "@orderly.network/trading-points/dist/styles.css";
 @import "../styles/theme.css";
 
 :root {

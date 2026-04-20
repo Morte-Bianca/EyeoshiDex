@@ -24,6 +24,7 @@ const nextConfig: NextConfig = {
     "@orderly.network/ui-transfer",
     "@orderly.network/ui-share",
     "@orderly.network/ui-leverage",
+    "@orderly.network/trading-points",
   ],
   turbopack: {},
   webpack: (config) => {
