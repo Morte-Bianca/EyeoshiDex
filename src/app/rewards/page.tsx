@@ -1,7 +1,5 @@
-"use client";
-
-import { TradingRewards } from "@orderly.network/trading-rewards";
+import { redirect } from "next/navigation";
 
 export default function RewardsPage() {
-  return <TradingRewards.HomePage />;
+  redirect("/markets");
 }
